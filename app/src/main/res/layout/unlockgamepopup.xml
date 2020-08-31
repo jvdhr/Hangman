@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/unlock_panel"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ibBackPop"
+                android:layout_width="57dp"
+                android:layout_height="55dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/button_back"
+                android:clickable="true"
+                android:textColor="#5dbcd2"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/ibShopPop"
+                android:layout_width="57dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/button_buy"
+                android:clickable="true"
+                android:textColor="#5dbcd2"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvDialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="3dp"
+                android:shadowColor="#3a230a"
+                android:shadowDx="-2.0"
+                android:shadowDy="2.0"
+                android:shadowRadius="4.0"
+                android:text="Correct!"
+                android:textIsSelectable="false"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/tvNumStars"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="WORD"
+                android:textColor="#3a230a"
+                android:textSize="15dp" />
+
+            <ImageButton
+                android:id="@+id/ibUnlockPop"
+                android:layout_width="210dp"
+                android:layout_height="45dp"
+                android:layout_above="@+id/linearLayout2"
+                android:layout_marginTop="5dp"
+                android:background="#00ffffff"
+                android:src="@drawable/unlock_stars" />
+
+            <ImageButton
+                android:id="@+id/ibGetMorePop"
+                android:layout_width="210dp"
+                android:layout_height="45dp"
+                android:layout_above="@+id/linearLayout2"
+                android:layout_marginTop="10dp"
+                android:background="#00ffffff"
+                android:src="@drawable/buy_stars" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txt_dia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="10dp"
+        android:text="Do you realy want to exit ?"
+        android:textColor="#106000b0"
+        android:textSize="15dp"
+        android:textStyle="normal" />
+</LinearLayout>

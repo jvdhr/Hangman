@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp"
+    android:background="@drawable/button_category"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvImeKategorije"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:padding="3dp"
+        android:shadowColor="#3a230a"
+        android:shadowDx="0.0"
+        android:shadowDy="1.0"
+        android:shadowRadius="2.0"
+        android:text="Kategorija"
+        android:textColor="#ffffff"
+        android:textSize="34sp"
+        android:textStyle="normal"
+        android:layout_centerInParent="true"
+        android:singleLine="true" />
+
+    <ImageView
+        android:id="@+id/ivDisplayPrice"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="12dp"
+        android:src="@drawable/button_100s"
+        android:visibility="invisible" />
+</RelativeLayout>

@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/etUnos"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/r1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bQ"
+
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/button_kb"
+                android:text="ض"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bW"
+
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/button_kb"
+                android:text="ص"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bE"
+
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/button_kb"
+                android:text="ث"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bR"
+
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/button_kb"
+                android:text="ق"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bT"
+
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/button_kb"
+                android:text="ف"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bY"
+
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/button_kb"
+                android:singleLine="false"
+                android:text="غ"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bU"
+
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/button_kb"
+                android:text="ع"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bI"
+
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/button_kb"
+                android:text="ه"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bO"
+
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/button_kb"
+                android:text="خ"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bP"
+
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/button_kb"
+                android:text="ح"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bJim"
+
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/button_kb"
+                android:text="ج"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bCh"
+
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/button_kb"
+                android:text="چ"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bA"
+
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/button_kb"
+                android:text="ش"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bS"
+
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/button_kb"
+                android:text="س"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bD"
+
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/button_kb"
+                android:text="ی"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bF"
+
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/button_kb"
+                android:text="ب"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bG"
+
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/button_kb"
+                android:text="ل"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bH"
+
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/button_kb"
+                android:text="ا"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bJ"
+
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/button_kb"
+                android:text="ت"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bK"
+
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/button_kb"
+                android:text="ن"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bL"
+
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/button_kb"
+                android:text="م"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bKaf"
+
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/button_kb"
+                android:text="ک"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bGaf"
+
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/button_kb"
+                android:text="گ"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bZ"
+
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/button_kb"
+                android:text="ظ"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bX"
+
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/button_kb"
+                android:text="ط"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bC"
+
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/button_kb"
+                android:text="ز"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bV"
+
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/button_kb"
+                android:text="ر"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bB"
+
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/button_kb"
+                android:text="ذ"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bN"
+
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/button_kb"
+                android:text="د"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bM"
+
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/button_kb"
+                android:text="ئ"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bVav"
+
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/button_kb"
+                android:text="و"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bPe"
+
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/button_kb"
+                android:text="پ"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bZh"
+
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/button_kb"
+                android:text="ژ"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bSpace"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/button_kb_space"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bDel"
+
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/button_kb_del"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvContinue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:paddingBottom="3dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="7dp"
+        android:paddingTop="7dp"
+        android:shadowColor="#000000"
+        android:shadowDx="-1.0"
+        android:shadowDy="1.0"
+        android:shadowRadius="2.0"
+        android:text="شروع"
+        android:textColor="#fcfeff"
+        android:textSize="23dp" />
+
+    <TextView
+        android:id="@+id/tvPlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:paddingBottom="3dp"
+        android:paddingLeft="7dp"
+        android:paddingRight="3dp"
+        android:paddingTop="7dp"
+        android:shadowColor="#000000"
+        android:shadowDx="-1.0"
+        android:shadowDy="1.0"
+        android:shadowRadius="2.0"
+        android:text="Player"
+        android:textColor="#fcfeff"
+        android:textSize="23dp" />
+
+    <EditText
+        android:id="@+id/etUnos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:background="#00000000"
+        android:gravity="center_horizontal"
+        android:hint="کلمه رو وارد کن"
+        android:minHeight="60dp"
+        android:textColor="#85573d"
+        android:textColorHint="#74b7d7"
+        android:textSize="22dp" />
+</RelativeLayout>

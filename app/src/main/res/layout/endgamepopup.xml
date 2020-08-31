@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/clear_panel"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_yes"
+                android:layout_width="57dp"
+                android:layout_height="55dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/clear_menu"
+                android:clickable="true"
+                android:textColor="#5dbcd2"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/btn_no"
+                android:layout_width="57dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/clear_next"
+                android:clickable="true"
+                android:textColor="#5dbcd2"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivStars"
+                android:layout_width="175dp"
+                android:layout_height="62dp"
+                android:layout_marginBottom="7dp"
+                android:src="@drawable/stars_3" />
+
+            <TextView
+                android:id="@+id/tvDialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="3dp"
+                android:shadowColor="#3a230a"
+                android:shadowDx="-1.0"
+                android:shadowDy="2.0"
+                android:shadowRadius="4.0"
+                android:text="Correct!"
+                android:textIsSelectable="false"
+                android:textSize="35dp" />
+
+            <TextView
+                android:id="@+id/tvWord"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="WORD"
+                android:textColor="#3a230a"
+                android:textSize="15dp" />
+
+            <ImageButton
+                android:id="@+id/ibFindOutMore"
+                android:layout_width="210dp"
+                android:layout_height="45dp"
+                android:layout_above="@+id/linearLayout2"
+                android:layout_marginTop="10dp"
+                android:background="#00ffffff"
+                android:src="@drawable/clear_fb" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txt_dia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="10dp"
+        android:text="Do you realy want to exit ?"
+        android:textColor="#106000b0"
+        android:textSize="15dp"
+        android:textStyle="normal" />
+</LinearLayout>

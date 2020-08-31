@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_bg_category"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="303dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="23dp"
+        android:src="@drawable/new_header_category" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView4"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <RelativeLayout
+            android:layout_width="129dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/new_btnc_starscount"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvStarsCounterCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="2dp"
+                android:layout_marginRight="11dp"
+                android:padding="2dp"
+                android:shadowColor="#442204"
+                android:shadowDx="-1.0"
+                android:shadowDy="1.0"
+                android:shadowRadius="4.0"
+                android:text="0"
+                android:textColor="#ffffff"
+                android:textIsSelectable="true"
+                android:textSize="16dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="121dp"
+            android:layout_height="44dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="3dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/ibGetToStore"
+                android:layout_width="116dp"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:adjustViewBounds="true"
+                android:src="@drawable/new_btnc_getmorestars" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout5"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="85dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:cacheColorHint="#106000d0"
+        android:listSelector="#106000d0"
+        android:scrollbars="none" />
+
+</RelativeLayout>
